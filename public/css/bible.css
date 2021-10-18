@@ -1,0 +1,45 @@
+/*
+This css was written by The Bibel in 2021.
+Intended for Swa Nusa Multimedia use. No rights reserved.
+*/
+
+
+.card {
+    border-radius: 0px 10px 10px 10px !important;
+}
+
+#date_range {
+    min-width: 168px;
+}
+
+.sidebar>.nav .nav-item.nav-profile .nav-link {
+    border-radius: 0 6px 6px 6px !important;
+}
+
+.title-wrappers {
+    margin-top: -.4rem;
+    margin-bottom: calc(1rem + 15px) !important;
+}
+
+.bullet-wrappers {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.bullet-wrappers > .bullet-wrapper {
+    background: #e52920;
+    height: 4.25rem;
+    width: 4.25rem;
+    border-radius: 0 0 50% 0;
+}
+
+.bullet-wrapper > span {
+    font-size: 2.5rem;
+}
+
+.text-title {
+    margin-left: 3.5rem;
+    font-size: 17px !important;
+    margin-bottom: 0 !important;
+}
