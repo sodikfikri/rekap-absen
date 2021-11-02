@@ -19,4 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('dashboard', 'AdminController@dashboard')->name('dashboard');
-Route::get('export', 'AdminController@export')->name('export');
+Route::get('export', 'AdminController@export')->name('export'); 
