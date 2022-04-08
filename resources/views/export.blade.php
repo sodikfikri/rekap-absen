@@ -76,6 +76,7 @@
             </div>
         </div>
     </div>
+    {{-- <button id="test">BTN</button> --}}
 </div>
 
 @endsection
@@ -83,6 +84,61 @@
 @section('script')
 <script>
     jQuery(function($) {
+        const user_data = {
+                1: 'Ferro Irawan',
+                2: 'MJ',
+                3: 'Raunaqi',
+                4: 'Affan Muhammad Abdau',
+                5: 'CAHYO NURINDAH',
+                6: 'SUPERADMIN',
+                7: 'Deni',
+                8: 'Faiz Noufal',
+                9: 'Muhamad Ivan Saputro',
+                10: 'rafif',
+                11: 'Emirsyaf Munir',
+                12: 'Nazmi',
+                13: 'Agus',
+                14: 'Mugisu',
+                15: 'ADMIN',
+                16: 'Fikra Abdul Razaq Farai',
+                17: 'Sucipto',
+                18: 'Dicky',
+                19: 'Ahmad Pauzi',
+                20: 'Asad',
+                21: 'Irsyad',
+                22: 'Ali Wahab',
+                23: 'Narul',
+                24: 'Sheha Rahmawati M',
+                25: 'Djaedi',
+                26: 'Vinny Oliviana',
+                27: 'Andy Firory',
+                28: 'Muchlisin',
+                29: 'Endah',
+                30: 'Ibnu',
+                31: 'umam',
+                32: 'Umam Putra',
+                33: 'Firda',
+                34: 'Rafie',
+                35: 'Bayu Adhi Wicaksono',
+                36: 'Ardelingga',
+                37: '',
+                38: 'Ahmad Pirma',
+                39: 'Darmawan Setiady',
+                40: 'Sondang Saputra Sianipa',
+                41: 'Moh Sodik Fikri',
+                42: 'Fauzi Arfan',
+                43: 'Joe',
+                44: 'Agung Nugroho',
+                45: 'Umam',
+                46: 'Mike',
+                47: 'Yasser',
+                48: 'Fajar',
+                49: 'Norman',
+                50: '',
+                51: 'Sultan Yahya',
+                52: 'Akira Oka',
+                53: 'Dendy',
+            }
         // set variable
         var final_arr = []
         var user_group = []
@@ -148,6 +204,7 @@
             var user_key = 0;
             var del_arr = []
             var xlsx_data = []
+
             // trigger click
             $('input[name="inpt-file"]').val(doc[0].name)
 
@@ -170,7 +227,7 @@
                                 final_arr[_val[key].User] = {}
                             }
                             // ambil data user
-                            final_arr[_val[key].User]['User'] = _val[key].User 
+                            final_arr[_val[key].User]['User'] = user_data[_val[key].User] 
                             // ambil waktu jam masuk kerja
                             if(_val[key].B === '0'){
                                 // medapatkan waktu masuk paling awal
@@ -246,7 +303,7 @@
                         });
                     var wb = XLSX.utils.book_new();
                     XLSX.utils.book_append_sheet(wb, ws, 'Rekap');
-                    XLSX.writeFile(wb, 'Rekap Absen.xlsx');
+                    XLSX.writeFile(wb, 'Rekap Absen '+$('#month').val()+ ' ' + $('#years').val() +'.xlsx');
 
                 })
             }
