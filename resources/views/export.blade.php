@@ -92,52 +92,52 @@
                 5: 'CAHYO NURINDAH',
                 6: 'SUPERADMIN',
                 7: 'Deni',
-                8: 'Faiz Noufal',
+                8: 'Faiz Noufal', // owner
                 9: 'Muhamad Ivan Saputro',
-                10: 'rafif',
-                11: 'Emirsyaf Munir',
-                12: 'Nazmi',
+                10: 'rafif', // it
+                11: 'Emirsyaf Munir', // it
+                12: 'Nazmi', // it
                 13: 'Agus',
-                14: 'Mugisu',
+                14: 'Mugisu', // bingcorp
                 15: 'ADMIN',
                 16: 'Fikra Abdul Razaq Farai',
-                17: 'Sucipto',
-                18: 'Dicky',
+                17: 'Sucipto', // isi kulkas
+                18: 'Dicky', // isi kulkas
                 19: 'Ahmad Pauzi',
-                20: 'Asad',
-                21: 'Irsyad',
+                20: 'Asad', // it
+                21: 'Irsyad', // it
                 22: 'Ali Wahab',
-                23: 'Narul',
+                23: 'Narul', // it
                 24: 'Sheha Rahmawati M',
-                25: 'Djaedi',
+                25: 'Djaedi', // isi kulkas
                 26: 'Vinny Oliviana',
-                27: 'Andy Firory',
+                27: 'Andy Firory', // isi kulkas
                 28: 'Muchlisin',
-                29: 'Endah',
-                30: 'Ibnu',
-                31: 'umam',
-                32: 'Umam Putra',
+                29: 'Endah', // isi kulkas
+                30: 'Ibnu', // it
+                31: 'umam', 
+                32: 'Umam Putra', // bonceng
                 33: 'Firda',
-                34: 'Rafie',
+                34: 'Rafie', // bingcorp
                 35: 'Bayu Adhi Wicaksono',
                 36: 'Ardelingga',
-                37: '',
+                37: 'Jimmy', // bingcorp
                 38: 'Ahmad Pirma',
                 39: 'Darmawan Setiady',
                 40: 'Sondang Saputra Sianipa',
-                41: 'Moh Sodik Fikri',
+                41: 'Moh Sodik Fikri', // it
                 42: 'Fauzi Arfan',
                 43: 'Joe',
                 44: 'Agung Nugroho',
                 45: 'Umam',
                 46: 'Mike',
-                47: 'Yasser',
+                47: 'Yasser', // bingcorp
                 48: 'Fajar',
                 49: 'Norman',
                 50: '',
                 51: 'Sultan Yahya',
-                52: 'Akira Oka',
-                53: 'Dendy',
+                52: 'Akira Oka', // it
+                53: 'Dendy', // bingcorp
             }
         // set variable
         var final_arr = []
