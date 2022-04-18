@@ -134,10 +134,11 @@
                 47: 'Yasser', // bingcorp
                 48: 'Fajar',
                 49: 'Norman',
-                50: '',
+                50: 'Dicki', // bingcorp
                 51: 'Sultan Yahya',
                 52: 'Akira Oka', // it
                 53: 'Dendy', // bingcorp
+                54: 'Ali'
             }
         // set variable
         var final_arr = []
